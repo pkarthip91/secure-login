@@ -1,4 +1,4 @@
-# 🔐 Secure Login – Web Engineer Assessment Project
+# 🔐 Secure Login
 
 A modern, multi-step secure login flow built with **Next.js**, **Tailwind CSS**, and **ShadCN UI**. This project simulates real-world login scenarios including secure word verification, password check, and MFA (OTP) validation.
 
