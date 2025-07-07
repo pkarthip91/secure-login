@@ -1,51 +1,57 @@
-# Secure Login – Web Engineer Assessment
+# Secure Login
 
-A full-featured, multi-step secure login flow built using **Next.js**, **Tailwind CSS**, and **ShadCN UI**. This project replicates a real-world secure authentication experience including username validation, secure word confirmation, password verification, and 6-digit OTP-based MFA.
+A full-featured, multi-step secure login flow built using **Next.js**, **Tailwind CSS**, and **ShadCN UI**.  
+This project replicates a real-world secure authentication experience including:
 
-> ✅ Designed to be accessible, responsive, and production-ready.
+- ✅ Username validation  
+- ✅ Secure word confirmation  
+- ✅ Password verification (hashed)  
+- ✅ 6-digit OTP-based MFA  
+
+> 💡 Designed to be accessible, responsive, and production-ready.
+
+---
+
+## Live Demo
+
+🔗 [https://secure-login-iota.vercel.app](https://secure-login-iota.vercel.app)
 
 ---
 
 ## Features
 
-- 🔸 Multi-step login flow
-  - Step 1: Username
-  - Step 2: Secure Word
-  - Step 3: Password (hashed)
-  - Step 4: OTP (6-digit MFA)
-- 🔸 OTP expires after 2 minutes
-- 🔸 3 retry limits on OTP
-- 🔸 Mock user and transaction data using in-memory stores
-- 🔸 Session-based dashboard using `localStorage`
-- 🔸 Logout flow on dashboard
-- 🔸 Mobile-first responsive layout
-- 🔸 Accessible via ShadCN/Dialog/A11Y standards
+-  **Multi-step login flow**
+  1. Username
+  2. Secure Word
+  3. Hashed Password
+  4. MFA (6-digit OTP)
+- OTP expires after 2 minutes
+- Retry limit (3 attempts)
+- In-memory mock user & transaction data
+- Token/session stored via `localStorage`
+- Dashboard with mock transactions
+- Mobile responsive + accessible UI
+- Logout support on dashboard
 
 ---
 
 ## Tech Stack
 
-| Tech           | Purpose                         |
-|----------------|----------------------------------|
-| Next.js        | React framework with App Router |
-| Tailwind CSS   | Utility-first CSS styling       |
-| ShadCN UI      | UI components using Radix + Tailwind |
-| crypto-js      | SHA256 password hashing         |
-| localStorage   | Auth/session handling           |
-| GitHub Pages   | Static deployment option        |
+| Tech           | Description                              |
+|----------------|------------------------------------------|
+| Next.js        | React framework with App Router          |
+| Tailwind CSS   | Utility-first CSS framework              |
+| ShadCN UI      | Accessible UI components (Radix-based)   |
+| crypto-js      | SHA256 password hashing                  |
+| localStorage   | Lightweight session handling             |
+| Vercel         | Deployed frontend hosting (CI/CD)        |
 
 ---
 
-
-## ⚙️ Local Development
-
-### ✅ Clone & Run
+## Local Development
 
 ```bash
 git clone https://github.com/pkarthip91/secure-login.git
 cd secure-login
 npm install
 npm run dev
-
-Visit 👉 http://localhost:3000
-
