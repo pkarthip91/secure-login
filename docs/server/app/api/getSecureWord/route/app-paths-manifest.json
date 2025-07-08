@@ -1,0 +1,3 @@
+{
+  "/api/getSecureWord/route": "app/api/getSecureWord/route.js"
+}
