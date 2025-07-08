@@ -24,7 +24,7 @@ export default function Navbar() {
     { name: "Enterprises", href: "/enterprises" },
   ]
 
-  // ✅ Detect login status and update on route change
+  // Detect login status and update on route change
   useEffect(() => {
     const checkToken = () => {
       const token = localStorage.getItem("token")
