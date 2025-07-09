@@ -2079,6 +2079,10 @@
   --sidebar-ring: oklch(.556 0 0);
 }
 
+button {
+  cursor: pointer;
+}
+
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;
